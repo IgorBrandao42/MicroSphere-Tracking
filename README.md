@@ -62,10 +62,6 @@ These properties are to be passed as fields of a single struct to the program, s
 |  RegionManually  | Only run the algorithm in a region of the video (which the user chooses by hand) |    logical   |
 | RegionAutomatic  | Only run the algorithm in a region of the video (which the user chooses through the field 'Region') (After selection of the region double click it for the algorithm to start!) |    logical   |
 
-
-
-
-
 ## Author
 [Igor Brandão](mailto:igorbrandao@aluno.puc-rio.br) - Research assistant in [Thiago Guerreiro](mailto:barbosa@puc-rio.br)'s Quantum Optics Lab at Pontifical Catholic University of Rio de Janeiro, Brazil
 
@@ -75,6 +71,8 @@ This code is made available under the Creative Commons Attribution - Non Commerc
 Cite this toolbox as: 
 > Igor Brandão, "MicroSphere Tracker", [https://github.com/IgorBrandao42/MicroSphere-Tracking](https://github.com/IgorBrandao42/MicroSphere-Tracking). Retrieved <*date-you-downloaded*>
 
- 
+## References
+Natan (2021). Fast 2D peak finder (https://www.mathworks.com/matlabcentral/fileexchange/37388-fast-2d-peak-finder), MATLAB Central File Exchange. Retrieved May 26, 2021.
+
 ## Acknowledgment
 The author thanks Professor Thiago Guerreiro for the initial ideia for this program, discussions and the provided videos of his experiments. The author is thankful for support received from FAPERJ Scholarship No. E-26/200.270/2020 and CNPq Scholarship No. 131945/2019-0.
