@@ -140,7 +140,7 @@ end
 inputVideo = VideoReader(inputFullFileName);     % Open up the VideoReader for reading the input video file
 
 if show_result
-  figure('Name', '1', 'units','normalized','outerposition',[0 0 1 1])                                      % Create a figure where everything is to be drawn
+  figure('Name', 'Multi-object Tracker', 'units','normalized','outerposition',[0 0 1 1])                                      % Create a figure where everything is to be drawn
   uicontrol('Style', 'slider', 'Min',0,'Max',250,'Value',threshold,... % Create slider to change threshold
     'Position', [400 20 120 20], 'Callback',{@slider1_Callback});
 end
